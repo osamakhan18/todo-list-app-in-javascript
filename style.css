@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    width: 50%;
+    height: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
