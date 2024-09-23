@@ -22,11 +22,14 @@
     
 }
 
-#input2 {
+
+
+/* #input2 {
     width: 100%;
-    padding-right: 60px; /* Adjust to make space for the button */
+    padding-right: 60px; /* Adjust to make space for the button 
     box-sizing: border-box;
     padding: 1rem 3rem;
+    display: none;
 }
 
 #remove {
@@ -41,4 +44,5 @@
     cursor: pointer;
     padding: 1rem 3rem;
     text-align: center;
-}
+    display: none;
+} */
