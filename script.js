@@ -13,6 +13,7 @@ btn.addEventListener('click', () => {
         var li = document.createElement('li');
 
         li.textContent=inputText;
+        li.classList.add('li')
         
       
         // Create a "Remove" button
