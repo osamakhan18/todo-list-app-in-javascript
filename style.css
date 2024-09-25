@@ -24,25 +24,14 @@
 
 
 
-/* #input2 {
-    width: 100%;
-    padding-right: 60px; /* Adjust to make space for the button 
-    box-sizing: border-box;
-    padding: 1rem 3rem;
-    display: none;
+.remove{
+    padding:1rem 4rem ;
+    background-color: blueviolet;
+    color:aliceblue;
+
 }
 
-#remove {
-    position: absolute;
-    right: 4px;
-    top: 2px;
-    height: 90%;
-    width: 50px; 
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
+.li{
     padding: 1rem 3rem;
-    text-align: center;
-    display: none;
-} */
+    
+}
