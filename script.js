@@ -16,12 +16,12 @@ btn.addEventListener('click', () => {
         li.classList.add('li')
         
       
-        // Create a "Remove" button
+        
         var btn_list = document.createElement('button');
         btn_list.textContent = "Remove";
         btn_list.classList.add('remove')
         
-        // Add remove functionality to the button
+       
         btn_list.addEventListener('click', () => {
             todo.removeChild(li);
         });
@@ -37,7 +37,7 @@ btn.addEventListener('click', () => {
            }
         })
 
-        // Clear the input field after adding the item
+       
         input.value = '';
     }
 });
