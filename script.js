@@ -29,6 +29,14 @@ btn.addEventListener('click', () => {
         li.appendChild(btn_list);
         todo.appendChild(li);
 
+        li.addEventListener('click',function(){
+           if( li.style.textDecoration=='line-through'){
+            li.style.textDecoration='none';
+           }else{
+            li.style.textDecoration='line-through';
+           }
+        })
+
         // Clear the input field after adding the item
         input.value = '';
     }
