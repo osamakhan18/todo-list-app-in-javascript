@@ -7,15 +7,16 @@ var todo_list = document.getElementById('todo-list')
 
 
 btn.addEventListener('click', () => {
-    var inputText = input.value.trim(); 
+
+    var inputText = input.value;
+    var todo = todo_list;
     
     if (inputText === '') {
         alert('Please enter some text');
         
     }
 
-    var inputText = input.value;
-    var todo = todo_list;
+   
     if (inputText) {
         var li = document.createElement('li');
 
@@ -47,7 +48,7 @@ btn.addEventListener('click', () => {
        
         input.value = '';
     }
-    
+
 });
 
 
